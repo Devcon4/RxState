@@ -1,3 +1,5 @@
 <h1>
   {{title}}
 </h1>
+<div class="wrapper"><div *ngFor="let comment of testData | async"><label>{{comment.name}}</label></div></div>
+<app-inner></app-inner>

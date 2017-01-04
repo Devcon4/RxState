@@ -1,0 +1,4 @@
+app-inner, .wrapper{
+    display: inline-block;
+    width: 20vw;
+}
